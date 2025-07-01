@@ -1,0 +1,41 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environment
+myenv/
+
+# Ignore environment variables and secrets
+.env
+*.env
+
+# Ignore logs
+*.log
+
+# VSCode settings (optional, if you use VSCode)
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# Byte-compiled files
+*.so
+
+# Ignore pip wheel packages
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore database files (if using SQLite)
+*.db
+*.sqlite3
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
